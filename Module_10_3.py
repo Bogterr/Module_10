@@ -46,7 +46,7 @@ class Bank:
     def __init__(self):
         self.balance = 0
         self.lock = threading.Lock()
-        self.blocked = False
+        # self.blocked = False
         self.count_amount = 100
         self.count_take = 100
         self.take_chance = 3
